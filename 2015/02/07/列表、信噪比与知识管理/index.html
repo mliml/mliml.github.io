@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<html lang="null">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="蘇陽志">
+    <title>列表、信噪比与知识管理 - 蘇陽志</title>
+    <meta name="author" content="吳·蘇陽">
+    
+    <link rel="alternative" type="application/atom+xml" title="RSS" href="/atom.xml">
+    <meta name="description" content="最近有两个产品比较火，一个是豆瓣2.0新上线，再一个是一个全新的产品「轻单」。两个产品体量不同、目标用户不同、内容不同，但是在产品形态上都一致选择了「列表」这一种组织形式。说起来「列表」并不是一个全新的组织形态，排行榜、收藏夹、相册全部都是形式各样的列表类产品，在互联网这片海洋，沉浮数载，却又在今天有了爆发新生命的迹象。
+互联网产品近几年一直站在风口浪尖上，无论是大学毕业生的就业选择还是互联网行业">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="列表、信噪比与知识管理">
+<meta property="og:url" content="http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/index.html">
+<meta property="og:site_name" content="蘇陽志">
+<meta property="og:description" content="最近有两个产品比较火，一个是豆瓣2.0新上线，再一个是一个全新的产品「轻单」。两个产品体量不同、目标用户不同、内容不同，但是在产品形态上都一致选择了「列表」这一种组织形式。说起来「列表」并不是一个全新的组织形态，排行榜、收藏夹、相册全部都是形式各样的列表类产品，在互联网这片海洋，沉浮数载，却又在今天有了爆发新生命的迹象。
+互联网产品近几年一直站在风口浪尖上，无论是大学毕业生的就业选择还是互联网行业">
+<meta property="og:image" content="http://7mnpep.com2.z0.glb.clouddn.com/uploads/image/file/50/3b/503becd30813d6e82f10bb2c570d5eff.jpg">
+<meta property="og:updated_time" content="2015-11-17T07:36:29.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="列表、信噪比与知识管理">
+<meta name="twitter:description" content="最近有两个产品比较火，一个是豆瓣2.0新上线，再一个是一个全新的产品「轻单」。两个产品体量不同、目标用户不同、内容不同，但是在产品形态上都一致选择了「列表」这一种组织形式。说起来「列表」并不是一个全新的组织形态，排行榜、收藏夹、相册全部都是形式各样的列表类产品，在互联网这片海洋，沉浮数载，却又在今天有了爆发新生命的迹象。
+互联网产品近几年一直站在风口浪尖上，无论是大学毕业生的就业选择还是互联网行业">
+    
+    
+    
+        <meta property="og:image" content="/assets/images/http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Flogo-yellow.png"/>
+    
+    
+    
+    
+
+    <!--WEB ICON-->    
+    <meta name="apple-mobile-web-app-title" content="蘇陽志">
+    <link rel="shortcut icon" href="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Ffavicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Ficon_152.png" sizes="152x152" />
+    <link rel="apple-touch-icon" href="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Ficon_144.png" sizes="144x144" />
+    <link rel="apple-touch-icon" href="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Ficon_120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Ficon_114.png" sizes="114x114" />
+    <link rel="apple-touch-icon" href="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Ficon_72.png" sizes="72x72" />
+    <link rel="apple-touch-icon" href="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Ficon_57.png" >
+
+
+    <!--WEB ICON END--> 
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/jquery.fancybox.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/jquery.fancybox-thumbs.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/tranquilpeak.css" type="text/css">
+    <!--STYLES END-->
+    
+</head>
+
+    <body>
+        <div id="blog">
+            <!-- Define author's picture -->
+
+
+<header id="header" data-behavior="3">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/ ">蘇陽志</a>
+    </h1>
+    
+        
+            <a  class="header-right-icon "
+                href="/">
+        
+        
+            <i class="fa fa-lg fa-home"></i>
+        
+        </a>
+    
+</header>
+
+            <!-- Define author's picture -->
+
+
+
+        
+    
+
+<nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                    <img class="sidebar-profile-picture" src="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Flogo-yellow.png"/>
+            </a>
+            <span class="sidebar-profile-name">吳·蘇陽</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/ "
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">博客</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-categories"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">分类</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-tags"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                    <span class="sidebar-button-desc">标签</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-archives"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">归档</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link st-search-show-outputs"
+                         href="/#search"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">搜索</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="http://im.yloveq.com" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-user-secret"></i>
+                    <span class="sidebar-button-desc">关于</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="http://www.yloveq.com" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-university"></i>
+                    <span class="sidebar-button-desc">首页</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/mliml/" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://cn.linkedin.com/in/wusuyang" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+                    <span class="sidebar-button-desc">LinkedIn</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+
+            
+            <div id="main" data-behavior="3"
+                 class="
+                        hasCoverMetaIn
+                        ">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+    
+        <div class="post-header main-content-wrap text-left">
+    
+        <h1 class="post-title" itemprop="headline">
+            列表、信噪比与知识管理
+        </h1>
+    
+    <div class="post-meta">
+    <i class="fa fa-calendar"></i><time itemprop="datePublished" content="Sat Feb 07 2015 15:31:33 GMT+0800">
+	
+		    Feb 07, 2015
+    	
+    </time>
+    &nbsp;&nbsp;<i class="fa fa-comment-o"></i>
+    <span class="ds-thread-count" data-thread-key="post-列表、信噪比与知识管理"></span>
+    
+</div>
+</div>
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <p>最近有两个产品比较火，一个是豆瓣2.0新上线，再一个是一个全新的产品「轻单」。两个产品体量不同、目标用户不同、内容不同，但是在产品形态上都一致选择了「列表」这一种组织形式。说起来「列表」并不是一个全新的组织形态，排行榜、收藏夹、相册全部都是形式各样的列表类产品，在互联网这片海洋，沉浮数载，却又在今天有了爆发新生命的迹象。</p>
+<p>互联网产品近几年一直站在风口浪尖上，无论是大学毕业生的就业选择还是互联网行业的薪金指标都说明了其极度繁荣甚至有点过度繁荣的现象。作为一个产品的极度爱好者，我并不喜欢这样现象：人人谈产品，可人人都谈不到产品。在这样一个浮躁的环境氛围中，阿北一直是我钦佩的产品人，无论是对豆瓣的打磨，还是个人对产品的思考，都很值得我认真的学习。（有关阿北的产品观可以参考知乎的这个问题：<a href="http://www.zhihu.com/question/19929348/" target="_blank" rel="external">豆瓣阿北在创新工场 Mentoring Session 中分享了哪些做产品及社区的经验？</a>）所以我也希望借这次豆瓣产品改革，谈一谈我的看法。</p>
+<a id="more"></a>
+<p>产品的创新不是一个新名词，但是产品形态的创新就不是一个可以随便说说就鼓捣出来的玩意。为什么，因为产品形态的创新往往不是为了满足一个显性的用户需求，没有办法简单地找到一个可见的商业模式。当然，产品形态的创新带来的好处必然也是无穷的，今天说的「列表」就是其中之一。</p>
+<p>整个互联网内容的采集和整理——豆列的含义</p>
+<p>从上面的一句话中可以看出，新豆列的产品核心一个在于「重组」，一个在于将内容扩大到「互联网」。</p>
+<p>当被问及为什么要在新豆瓣上重新做豆列的时候，阿北这么描述这件事，做了十年发现的豆瓣把这个领域里能做的形态都做了，了解到发现的用法无非就是几种：</p>
+<p>首先是热点。这是以前的传统做法，门户上的热点内容也好，榜单也好，都属于热点。因为我没法精确地知道你需要什么，所以就把最多人看的东西给你。</p>
+<p>另外就是个性化推荐，这方面豆瓣一直在做，就不用多说。</p>
+<p>还有是通过其他人，也就是社会化推荐。</p>
+<p>当把所有的信息都整理出来摆在桌面上，这些复杂的分类其实可以用一个东西做出来，那就是「豆列」。因为这几个东西共通的地方其实都是列表，像热点要么是编辑做出来的，有一个头条、第二条、第三条，无论是门户还是现在的微信类的公众账号都是这样的，个性化、推荐也可以是一个列表，通过别人那就不说了。之前我们做的实验室项目中有几个外界看到过的，比如达罗，它里面有一个频道，这其实就是个人发布的一个列表，它还可以被关注，这东西跟豆列就挺像。而在手机上不想弄得特别复杂的豆瓣，就用一种形态，那能用的就是列表，这就是豆列。</p>
+<p>回过头来再看看新产品「轻单」。</p>
+<p>如果让我用一句话来给别人介绍「轻单」，那就是<strong>组织内容的好形式</strong>。其实在最初我是想用「组织内容的新形式」，但是后来发现用新来形容确实不太恰当，因为这种列表形式早就存在，「轻单」的最大功劳是把它提到了一个前所未有的高度。</p>
+<p>一篇访谈中这样说：「轻单」的创始人阿禅在运营博客「可能吧」时，为了让文章的观点和主题更为明晰，往往爱加上不少小标题，并且在博客的样式设计上对这些小标题进行凸显，比如配上序号，文字着色加粗。同时，他也是 Twitter 的资深用户，对于微博客的内容生产和传播机制，尤其是在移动场景中所能发挥的更高效率，他有着更深的体会。</p>
+<p>在确定「轻单」为最终的产品方向前，阿禅做的是一个与著名效率工具 Omnifocus 类似的产品。当然，他本人也是 Omnifocus 的死忠用户。这几种不同方向的经验最终都在「轻单」上体现出来。</p>
+<p>轻单目前的功能还比较初级，更像是一个增强版本的 Wunderlist，你可以在每个轻单项下面添加更具体的文字描述、超链接和配图，并给已完成的轻单项打勾。</p>
+<p><img src="http://7mnpep.com2.z0.glb.clouddn.com/uploads/image/file/50/3b/503becd30813d6e82f10bb2c570d5eff.jpg" alt="image"></p>
+<p>「轻单」有两个主要的目标人群：创作者和阅读者。对于创造者来说，轻单的价值在于更能帮助他们理清思路，从而快速输出内容；而阅读者能够以更为直观的方式获得自己所需要的知识。从当前的用户习惯出发，轻单也必然会是一个「移动为先」的产品，它本身就是对移动场景的内容形态所进行的一次勇敢尝试。</p>
+<p>至此，我们简单地梳理了下这两个产品，可以发现他们都瞄准了同一个目标：<strong>尽最大可能组织现在互联网已经存在的优质内容，做出一个把这些内容以最高信噪比呈现出来的产品</strong>。</p>
+<p>从互联网开始至今，内容的一次创作一直是所有内容型产品看重的东西，最早的互联网媒体新浪、网易、搜狐，后来的论坛、博客、微博，到现在的垂直型媒体、垂直型社区，可以说将一次创作开发到了极致。不可否认，这些内容的价值巨大，并且是未来所有发展的基石。但是在广告、软文、水军、无效信息充斥互联网的今天，在每个人需求的内容品质、顺序等不同的今天，仅仅一次创作的内容已经不能满足用户的需求了。</p>
+<p>在浏览内容的时候我们一般有两种使用场景，一个是随机浏览，一个是有目的找东西。<br>随机浏览不在今天的讨论范围内，主要说一说有目的找内容：</p>
+<p>当我们有一个明确的搜寻目标时，我们一般都上哪里找呢？</p>
+<p>1、搜索引擎</p>
+<p>2、相关的垂直社区、媒体、论坛</p>
+<p>3、业内人士的微博、博客</p>
+<p>上面这三种方式的信息量、准确性、信噪比各有不同，但有一个共同的特点就是都有一个或多个门槛。</p>
+<p>而「列表」恰恰是为解决这种问题而产生的一个产品形态，其核心就是「二次创作」。与评论这种二次创作不同，列表的二次创作是为了把相关的内容按照一定的逻辑方式聚集起来，使得阅读者可以最快速度地理清脉络。</p>
+<p>对我来说，常常需要搜索移动互联网、产品、时间管理方面的信息。我的常用渠道有知乎、PM社区以及一些知名博主的博客。我在信息检索方面可以说有一些经验，并且花了不少的时间，即使这样我的感觉还是有效信息太少、效率太低，好内容经常找不到。所以当我听说有「轻单」这样的应用时感觉以后我在这方面的效率会有一个极大幅度的提升。</p>
+<p>首先，我可以在这上面轻松地找到经过组织的好内容。在这上面有很多和我一样重视信息搜集整理的同仁，当我看到一个我感兴趣的、有用的内容时，我可已通过列表找到其他类似的信息。二次创作过的信息往往包含着创作者的思考与感悟，这就是现在互联网中稀缺的资源。其次，我收集的内容也可以通过这个平台进行整理，构建出我的思维框架。而不是目前仅仅是按照笔记本分类在印象笔记中。最后，列表可以进行互相的引用，这使得「三次创作」、「多次创作」成为了可能，玩法多得不可想象。</p>
+<p>这就是我对「列表」这种产品的一些感悟：通过二次创作提升信噪比，将内容的整理多元化。</p>
+<p>但我对「列表」的想法还不止于此，既然可以成为一种行之有效的产品形态，为何不能为个人信息的整理提供一些思路呢？</p>
+<p>个人信息整理是一个大课题，也有人称之为「知识管理」。知识管理的核心是帮助我们的大脑记忆、理解我们希望掌握的知识，通过组织、理解、再创造，达成更高的成就。</p>
+<p>上文中提到，过去我一直习惯使用印象笔记做我的知识管理工具。</p>
+<p>关于印象笔记的使用方法以及知识管理的有关内容未来我会做一个详细的专题。今天我主要想说说印象笔记的局限之处。</p>
+<p>在我看来对知识的管理分为两种，一种是重内容，一种是重逻辑。举个例子，我的「厨艺」笔记本的内容就是重内容的好例子，里面是我收集的食谱、烹饪技巧等内容，通过印象笔记的标签我可以轻松地把这些内容组织起来。</p>
+<p>而我在做「产品流程」的学习中，这种方式就不好使了。因为这是一个典型的重逻辑的例子。我不单单是需要将我搜集到的内容分门别类整理好，还需要将它们之间的逻辑顺序、组织方式也保存起来，比如一个完整的产品设计流程是怎样的，哪步先哪步后，很多时候这才是我需要掌握的核心。这个时候印象笔记的功能就不太合适了。</p>
+<p>列表这中产品形态则可以轻松地驾驭这种需求，我可以先去浏览其他人的列表，好的存起来，不好的筛出去。然后再将这些内容按照我的理解进行组织分类，这就形成了属于我自己的<strong>学习过程</strong>，这就是知识管理的终极目标。</p>
+<p>当然这不是否认印象笔记在知识管理中的强大作用，它在知识管理中起到的是大脑、仓库的作用。而列表则是其中的一个小的处理器，但却承担着重要的作用。</p>
+<p>印象笔记有一句口号叫做你的电子大脑。是不是准确我记不清楚了，但是这确实表明了这类的产品的远景：让人类的学习力进一步提升。我们都憧憬过知识一下子就存进大脑的场景。这也许离我们还遥远，但类似的生产力工具却一直没有听下探索的脚步，让我的学习力强一点，再强一点。</p>
+
+            
+                
+
+            
+        </div>
+    </div>
+    <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">标签</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/内容呈现/">内容呈现</a> <a class="tag tag--primary tag--small t-link" href="/tags/豆瓣/">豆瓣</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2015/05/19/谁更有机会——支付宝OR微信/"  data-tooltip="谁更有机会——支付宝OR微信">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/10/28/极简主义生活实践/" data-tooltip="极简主义生活实践">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="http://v.t.sina.com.cn/share/share.php?url=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-weibo"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="http://share.renren.com/share/buttonshare.do?link=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-renren"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="2015/02/07/列表、信噪比与知识管理/" data-title="列表、信噪比与知识管理" data-url="http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"mlimlblog"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2016 吳·蘇陽. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2015/05/19/谁更有机会——支付宝OR微信/"  data-tooltip="谁更有机会——支付宝OR微信">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2014/10/28/极简主义生活实践/" data-tooltip="极简主义生活实践">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="http://v.t.sina.com.cn/share/share.php?url=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-weibo"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="http://share.renren.com/share/buttonshare.do?link=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-renren"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="http://v.t.sina.com.cn/share/share.php?url=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-weibo"></i><span class="">分享到新浪微博</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="http://share.renren.com/share/buttonshare.do?link=http://blog.mliml.com/2015/02/07/列表、信噪比与知识管理/">
+                <i class="fa fa-renren"></i><span class="">分享到人人</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+            
+        </div>
+        <!-- Define author's picture -->
+
+
+    
+        
+    
+
+<div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="http://7xo7ig.com1.z0.glb.clouddn.com/logo%2Flogo-yellow.png"/>
+        
+            <h4 id="about-card-name">吳·蘇陽</h4>
+        
+            <h5 id="about-card-bio"><p>Be a Good Man</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Product Manager</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                Beijing
+            </h5>
+        
+    </div>
+</div>
+
+        
+<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/jquery.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.fancybox.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.fancybox-thumbs.js" type="text/javascript"></script>
+<script src="/assets/js/tranquilpeak.js" type="text/javascript"></script>
+<!--SCRIPTS END-->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'mliml';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+
+</html>
