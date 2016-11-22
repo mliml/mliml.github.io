@@ -892,7 +892,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #396327;
+  background: #012b36;
   border-bottom: none;
 }
 .brand:hover {
@@ -1597,7 +1597,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cbffff;
+  background: #ffff7d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2344,7 +2344,7 @@ body {
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #396327;
+  background: #012b36;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
