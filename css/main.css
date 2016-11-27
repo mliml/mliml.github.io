@@ -1,7 +1,7 @@
 @font-face {
 /* font-properties */
   font-family: logo;
-  src: url("../fonts/logo.otf");
+  src: url("http://7xo7ig.com1.z0.glb.clouddn.com/fonts/logo.otf");
 }
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -886,7 +886,7 @@ pre .javascript .function {
 @font-face {
 /* font-properties */
   font-family: logo;
-  src: url("../fonts/logo.otf");
+  src: url("http://7xo7ig.com1.z0.glb.clouddn.com/fonts/logo.otf");
 }
 .site-meta {
   margin: 0;
@@ -1607,7 +1607,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff95ec;
+  background: #7413b3;
 }
 .links-of-blogroll {
   font-size: 13px;
