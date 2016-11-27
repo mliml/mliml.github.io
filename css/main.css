@@ -886,7 +886,7 @@ pre .javascript .function {
 @font-face {
 /* font-properties */
   font-family: logo;
-  src: url("fonts/logo.otf"),;
+  src: url("../fonts/logo.otf"),;
 }
 .site-meta {
   margin: 0;
@@ -1607,7 +1607,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9fff00;
+  background: #ab2bf9;
 }
 .links-of-blogroll {
   font-size: 13px;
