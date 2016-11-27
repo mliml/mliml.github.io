@@ -883,11 +883,6 @@ pre .javascript .function {
   height: 3px;
   background: #222;
 }
-@font-face {
-/* font-properties */
-  font-family: logo;
-  src: url("http://7xo7ig.com1.z0.glb.clouddn.com/fonts/logo.otf");
-}
 .site-meta {
   margin: 0;
   text-align: center;
@@ -1607,7 +1602,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #17ffe0;
+  background: #7afff9;
 }
 .links-of-blogroll {
   font-size: 13px;
