@@ -1,7 +1,7 @@
 @font-face {
 /* font-properties */
   font-family: logo;
-  src: url("http://7xo7ig.com1.z0.glb.clouddn.com/fonts/logo.otf");
+  src: url("http://7xo7ig.com1.z0.glb.clouddn.com/fonts/logo2.ttf");
 }
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -1602,7 +1602,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d50920;
+  background: #85c43c;
 }
 .links-of-blogroll {
   font-size: 13px;
