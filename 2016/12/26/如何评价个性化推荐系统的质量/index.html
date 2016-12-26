@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="WuSuyang, mliml, 苏阳志" />
+  <meta name="keywords" content="个性化推荐,产品," />
 
 
 
@@ -86,16 +86,17 @@
 
 
 
-<meta name="description" content="the Worst PM">
-<meta property="og:type" content="website">
-<meta property="og:title" content="all-archives">
-<meta property="og:url" content="http://blog.mliml.com/all-archives/index.html">
+<meta name="description" content="在知乎上看到了一个问题，「类似今日头条这样的个性化推荐网站怎么评价推荐质量的优劣？」，觉得很有趣，所以按照自己的理解写了以下一篇文章。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何评价个性化推荐系统的质量">
+<meta property="og:url" content="http://blog.mliml.com/2016/12/26/如何评价个性化推荐系统的质量/index.html">
 <meta property="og:site_name" content="蘇陽志">
-<meta property="og:description" content="the Worst PM">
-<meta property="og:updated_time" content="2015-11-10T13:53:57.000Z">
+<meta property="og:description" content="在知乎上看到了一个问题，「类似今日头条这样的个性化推荐网站怎么评价推荐质量的优劣？」，觉得很有趣，所以按照自己的理解写了以下一篇文章。">
+<meta property="og:image" content="https://pic3.zhimg.com/v2-6e788f3a60949c3f4782cb20dbc37862_b.jpg">
+<meta property="og:updated_time" content="2016-12-26T04:51:38.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="all-archives">
-<meta name="twitter:description" content="the Worst PM">
+<meta name="twitter:title" content="如何评价个性化推荐系统的质量">
+<meta name="twitter:description" content="在知乎上看到了一个问题，「类似今日头条这样的个性化推荐网站怎么评价推荐质量的优劣？」，觉得很有趣，所以按照自己的理解写了以下一篇文章。">
 
 <link rel="apple-touch-icon" sizes="57x57" href="http://7xo7ig.com1.z0.glb.clouddn.com/meta-icon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="http://7xo7ig.com1.z0.glb.clouddn.com/meta-icon/apple-icon-60x60.png">
@@ -124,13 +125,7 @@
   };
 </script>
 
-  <title>
-  
-
-  
-    all-archives | 蘇陽志
-  
-</title>
+  <title> 如何评价个性化推荐系统的质量 | 蘇陽志 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -151,7 +146,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right  ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -264,9 +259,188 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                如何评价个性化推荐系统的质量
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-12-26T12:51:00+08:00" content="2016-12-26">
+              2016-12-26
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/12/26/如何评价个性化推荐系统的质量/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/26/如何评价个性化推荐系统的质量/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/12/26/如何评价个性化推荐系统的质量/" class="leancloud_visitors" data-flag-title="如何评价个性化推荐系统的质量">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">热度 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
-    
+      
+
+      
+        <p>在知乎上看到了一个问题，「类似今日头条这样的个性化推荐网站怎么评价推荐质量的优劣？」，觉得很有趣，所以按照自己的理解写了以下一篇文章。</p>
+<p>我想用一张矩阵图来说明一下我认为好的评价标准。</p>
+<ol>
+<li>这个矩阵描述的是一条内容所属的一个粒度很小的分类</li>
+<li>矩阵分为两个维度，一个是用户过去对这个分类的态度，另一个是用户此次对这个分类的态度</li>
+<li>态度分为喜欢与不喜欢：点击阅读视为喜欢，不点击或者标注「不再推荐」视为不喜欢</li>
+<li>通过这两个维度，我们可以将用户对一个具体消息的态度分为四个象限，如下图所示</li>
+</ol>
+<p><img src="https://pic3.zhimg.com/v2-6e788f3a60949c3f4782cb20dbc37862_b.jpg" alt=""></p>
+<p>•    象限 1 是个性化推荐最追求的内容，即推送用户感兴趣的内容<br>•    象限 2 与象限 3 是系统的试探内容，由于不知道用户偏好，需要通过一定量的样本来试错<br>•    象限 4 则体现了用户兴趣的不确定性<br>通过这四个象限我可以定义这样几个评价指标</p>
+<h3 id="指标_1：用户喜爱率">指标 1：用户喜爱率</h3><p>定义：（象限 1 + 象限 2）/ 总体<br>这个指标用来衡量用户对于信息流的喜爱程度，可以说是衡量一个个性化推荐系统的最基本的指标了。一般来说都认为这个指标越高约好，但是由于象限 2 的不确定性，一般来说要提高用户喜爱率就会造成象限 1 所占比例无限增大，这就会导致用户看到的是一个角度很窄的信息流，从体验的角度会使得内容同质化现象严重。<br>总结来说，用户喜爱率是一个短期指标</p>
+<h3 id="指标_2：新鲜度">指标 2：新鲜度</h3><p>定义：（象限 2 + 象限 3）/ 总体<br>这就引出了第二个指标：新鲜度。<br>这个指标是用来衡量一个信息流中有多少用户之前没有看到的内容，一般来说用户刚开始使用的时候新鲜度最高，随着使用时间增加新鲜度不断降低。之前说过，新鲜度降低不是目的，而是结果：由于追求喜爱率的提升，所以需要降低象限 2 和象限 3 的比例，最后导致指标下降。因此需要系统将新鲜度控制在一个合理的范围之内。<br>总结来说，新鲜度是一个长期指标</p>
+<h3 id="指标_3：机器学习能力">指标 3：机器学习能力</h3><p>定义： 象限 2 /（象限 2 + 象限 3）<br>这就产生了一个矛盾：用户喜爱率在短期直接关乎者信息流的点击量，新鲜度又会在长期影响用户进入应用的时长与频次。那么同时保持两个指标的方法就是提升机器学习能力，即针对用户未表态内容的预判能力。<br>如果机器能够非常准确地预测用户的口味，那么就可以在保证喜爱率的前提下提升新鲜度指标，也就可以使得信息流的短期与长期吸引力都非常可观。<br>需要指出的是，这里面说的预测口味可不是简单的用户喜欢「篮球」就不断推送篮球信息，而是用户喜欢「篮球」，就尝试给用户推送「篮球鞋」、「啤酒」、「战术」等弱相关内容。<br>对这种弱相关口味理解得越深刻，越准确，机器学习能力也就越强大。</p>
+<p>小结一下：<br>指标 1 和指标 2 在某种程度上可以由产品控制的指标，也是直接影响用户体验的指标。<br>而指标 3 则是需要利用机器学习能力来提升的，可以同时提升指标 1 和指标 2 的关键能力。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block； padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="http://7xo7ig.com1.z0.glb.clouddn.com/logo/ex-code.png" alt="吳蘇陽 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>手机访问蘇陽志</div>
+</div>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/个性化推荐/" rel="tag">#个性化推荐</a>
+          
+            <a href="/tags/产品/" rel="tag">#产品</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/10/07/小转折与小思考/" rel="next" title="小转折与小思考">
+                <i class="fa fa-chevron-left"></i> 小转折与小思考
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!--MOB SHARE BEGIN-->
+<div class="-hoofoo-share-buttons">
+    <div class="-mob-share-weibo -hoofoo-share-weibo -hoofoo-share-ui-button"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+    <div class="-mob-share-weixin -hoofoo-share-weixin -hoofoo-share-ui-button"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+    <div class="-mob-share-twitter -hoofoo-share-twitter -hoofoo-share-ui-button"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+
+</div>
+<div class="-mob-share-ui" style="display: none">
+    <ul class="-mob-share-list">
+        <li class="-mob-share-weibo"><p>新浪微博</p></li>
+        <li class="-mob-share-weixin"><p>微信</p></li>
+        <li class="-mob-share-qzone"><p>QQ空间</p></li>
+        <li class="-mob-share-qq"><p>QQ好友</p></li>
+        <li class="-mob-share-tencentweibo"><p>腾讯微博</p></li>
+        <li class="-mob-share-renren"><p>人人网</p></li>
+        <li class="-mob-share-kaixin"><p>开心网</p></li>
+        <li class="-mob-share-douban"><p>豆瓣</p></li>
+        <li class="-mob-share-youdao"><p>有道云笔记</p></li>
+        <li class="-mob-share-mingdao"><p>明道</p></li>
+        <li class="-mob-share-pengyou"><p>朋友网</p></li>
+        <li class="-mob-share-facebook"><p>Facebook</p></li>
+        <li class="-mob-share-twitter"><p>Twitter</p></li>
+        <li class="-mob-share-pocket"><p>Pocket</p></li>
+        <li class="-mob-share-google"><p>Google+</p></li>
+        <li class="-mob-share-tumblr"><p>Tumblr</p></li>
+        <li class="-mob-share-instapaper"><p>Instapaper</p></li>
+        <li class="-mob-share-linkedin"><p>Linkedin</p></li>
+    </ul>
+    <div class="-mob-share-close">取消</div>
+</div>
+<div class="-mob-share-ui-bg"></div>
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=19941ba75e3ec"></script>
+<!--MOB SHARE END-->
+      
+    </div>
   </div>
 
 
@@ -277,8 +451,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="all-archives/index.html"
-           data-title="all-archives" data-url="http://blog.mliml.com/all-archives/index.html">
+      <div class="ds-thread" data-thread-key="2016/12/26/如何评价个性化推荐系统的质量/"
+           data-title="如何评价个性化推荐系统的质量" data-url="http://blog.mliml.com/2016/12/26/如何评价个性化推荐系统的质量/">
       </div>
     
   </div>
@@ -302,8 +476,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://7xo7ig.com1.z0.glb.clouddn.com/logo/logo-new.png"
@@ -423,6 +606,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#指标_1：用户喜爱率"><span class="nav-number">1.</span> <span class="nav-text">指标 1：用户喜爱率</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指标_2：新鲜度"><span class="nav-number">2.</span> <span class="nav-text">指标 2：新鲜度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指标_3：机器学习能力"><span class="nav-number">3.</span> <span class="nav-text">指标 3：机器学习能力</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -524,6 +718,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
