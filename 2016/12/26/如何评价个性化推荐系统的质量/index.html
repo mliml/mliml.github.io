@@ -92,8 +92,8 @@
 <meta property="og:url" content="http://blog.mliml.com/2016/12/26/如何评价个性化推荐系统的质量/index.html">
 <meta property="og:site_name" content="蘇陽志">
 <meta property="og:description" content="在知乎上看到了一个问题，「类似今日头条这样的个性化推荐网站怎么评价推荐质量的优劣？」，觉得很有趣，所以按照自己的理解写了以下一篇文章。">
-<meta property="og:image" content="https://pic3.zhimg.com/v2-6e788f3a60949c3f4782cb20dbc37862_b.jpg">
-<meta property="og:updated_time" content="2016-12-26T04:51:38.000Z">
+<meta property="og:image" content="http://7xo7ig.com1.z0.glb.clouddn.com/2017/gexinghuatuijian.jpg">
+<meta property="og:updated_time" content="2016-12-27T02:39:28.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何评价个性化推荐系统的质量">
 <meta name="twitter:description" content="在知乎上看到了一个问题，「类似今日头条这样的个性化推荐网站怎么评价推荐质量的优劣？」，觉得很有趣，所以按照自己的理解写了以下一篇文章。">
@@ -342,8 +342,8 @@
 <li>态度分为喜欢与不喜欢：点击阅读视为喜欢，不点击或者标注「不再推荐」视为不喜欢</li>
 <li>通过这两个维度，我们可以将用户对一个具体消息的态度分为四个象限，如下图所示</li>
 </ol>
-<p><img src="https://pic3.zhimg.com/v2-6e788f3a60949c3f4782cb20dbc37862_b.jpg" alt=""></p>
-<p>•    象限 1 是个性化推荐最追求的内容，即推送用户感兴趣的内容<br>•    象限 2 与象限 3 是系统的试探内容，由于不知道用户偏好，需要通过一定量的样本来试错<br>•    象限 4 则体现了用户兴趣的不确定性<br>通过这四个象限我可以定义这样几个评价指标</p>
+<p><img src="http://7xo7ig.com1.z0.glb.clouddn.com/2017/gexinghuatuijian.jpg" alt=""></p>
+<p>• 象限 1 是个性化推荐最追求的内容，即推送用户感兴趣的内容<br>• 象限 2 与象限 3 是系统的试探内容，由于不知道用户偏好，需要通过一定量的样本来试错<br>• 象限 4 则体现了用户兴趣的不确定性<br>通过这四个象限我可以定义这样几个评价指标</p>
 <h3 id="指标_1：用户喜爱率">指标 1：用户喜爱率</h3><p>定义：（象限 1 + 象限 2）/ 总体<br>这个指标用来衡量用户对于信息流的喜爱程度，可以说是衡量一个个性化推荐系统的最基本的指标了。一般来说都认为这个指标越高约好，但是由于象限 2 的不确定性，一般来说要提高用户喜爱率就会造成象限 1 所占比例无限增大，这就会导致用户看到的是一个角度很窄的信息流，从体验的角度会使得内容同质化现象严重。<br>总结来说，用户喜爱率是一个短期指标</p>
 <h3 id="指标_2：新鲜度">指标 2：新鲜度</h3><p>定义：（象限 2 + 象限 3）/ 总体<br>这就引出了第二个指标：新鲜度。<br>这个指标是用来衡量一个信息流中有多少用户之前没有看到的内容，一般来说用户刚开始使用的时候新鲜度最高，随着使用时间增加新鲜度不断降低。之前说过，新鲜度降低不是目的，而是结果：由于追求喜爱率的提升，所以需要降低象限 2 和象限 3 的比例，最后导致指标下降。因此需要系统将新鲜度控制在一个合理的范围之内。<br>总结来说，新鲜度是一个长期指标</p>
 <h3 id="指标_3：机器学习能力">指标 3：机器学习能力</h3><p>定义： 象限 2 /（象限 2 + 象限 3）<br>这就产生了一个矛盾：用户喜爱率在短期直接关乎者信息流的点击量，新鲜度又会在长期影响用户进入应用的时长与频次。那么同时保持两个指标的方法就是提升机器学习能力，即针对用户未表态内容的预判能力。<br>如果机器能够非常准确地预测用户的口味，那么就可以在保证喜爱率的前提下提升新鲜度指标，也就可以使得信息流的短期与长期吸引力都非常可观。<br>需要指出的是，这里面说的预测口味可不是简单的用户喜欢「篮球」就不断推送篮球信息，而是用户喜欢「篮球」，就尝试给用户推送「篮球鞋」、「啤酒」、「战术」等弱相关内容。<br>对这种弱相关口味理解得越深刻，越准确，机器学习能力也就越强大。</p>
@@ -392,6 +392,10 @@
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/12/31/我的2017年度计划/" rel="prev" title="我的2017年度计划">
+                我的2017年度计划 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -497,7 +501,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">13</span>
+              <span class="site-state-item-count">14</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -505,7 +509,7 @@
 
             <div class="site-state-item site-state-categories">
               
-                <span class="site-state-item-count">28.0k</span>
+                <span class="site-state-item-count">29.3k</span>
                 <span class="site-state-item-name">字数</span>
               
             </div>
@@ -514,7 +518,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-count">24</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
