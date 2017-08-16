@@ -1734,7 +1734,7 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
 /* border: $site-author-image-border-width solid $site-author-image-border-color; */
-  border-radius: 100%;
+  border-radius: 40%;
   padding: 2px;
   border: 2px dashed #fff;
   animation: cycle 2s 0.5s forwards;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff85e3;
+  background: #93ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
