@@ -1800,7 +1800,6 @@ pre .javascript .function {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .links-of-author a {
   display: inline-block;
@@ -1818,7 +1817,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2a08ff;
+  background: #8ae994;
 }
 .links-of-blogroll {
   font-size: 13px;
