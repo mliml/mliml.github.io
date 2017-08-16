@@ -1736,7 +1736,7 @@ pre .javascript .function {
 /* border: $site-author-image-border-width solid $site-author-image-border-color; */
   border-radius: 30%;
   padding: 2px;
-  border: 2px dashed #1c6867;
+  border: 2px #1c6867;
 /* animation: cycle 2s 0.5s forwards; */
 /* transition: border-radius 2s;*/
 }
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4611e4;
+  background: #6cffab;
 }
 .links-of-blogroll {
   font-size: 13px;
