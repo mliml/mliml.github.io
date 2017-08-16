@@ -950,7 +950,7 @@ pre .javascript .function {
 .post-button .btn:hover {
   border-color: #1c6867;
   color: #fff;
-  background: #222;
+  background: #1c6867;
 }
 .btn-bar {
   display: block;
@@ -1538,7 +1538,7 @@ pre .javascript .function {
 .post-button .btn {
   color: #555;
   font-size: 14px;
-  background: #1c6867;
+  background: #fff;
   border-radius: 2px;
   line-height: 2;
   margin: 0 4px 8px 4px;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #11a409;
+  background: #8230b1;
 }
 .links-of-blogroll {
   font-size: 13px;
