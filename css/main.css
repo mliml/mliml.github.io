@@ -3,6 +3,11 @@
   font-family: logo;
   src: url("/fonts/fonteditor.ttf");
 }
+@font-face {
+/* font-properties */
+  font-family: logo;
+  src: url("/fonts/fonteditor.ttf");
+}
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -185,7 +190,7 @@ th {
   padding: 0;
 }
 ::selection {
-  background: #262a30;
+  background: #003a50;
   color: #fff;
 }
 body {
@@ -1097,7 +1102,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #222;
+  background: #003a50;
   border-bottom: none;
 }
 .brand:hover {
@@ -1813,7 +1818,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f1fa8;
+  background: #915e2d;
 }
 .links-of-blogroll {
   font-size: 13px;
