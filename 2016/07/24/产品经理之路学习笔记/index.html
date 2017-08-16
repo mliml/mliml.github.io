@@ -1,22 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
 
 
 
@@ -34,12 +27,9 @@
 
 
 
-
-
-
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -73,9 +63,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="产品," />
@@ -89,7 +79,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
 
 
 
@@ -108,91 +98,77 @@
 <meta name="twitter:title" content="产品经理之路学习笔记">
 <meta name="twitter:description" content="这份学习文档是酷我的产品总监内部培训的一份学习资料，我把打印出来超级厚的一打内容再次精炼成下面的这些东西。如果是看过很多资料的产品经理可能会觉得下面的内容过于简单了，但是我觉得里面的东西比较实在，适合作为一个基础文档好好地琢磨，有些观点可能不完全对，但是却用产品的整个流程把 pm 的核心能力梳理了一遍。">
 
+<link rel="apple-touch-icon" sizes="57x57" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/font-head/android-icon-192x192.png">
 
 
-<script type="text/javascript" id="hexo.configurations">
+
+<script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/',
     scheme: 'Pisces',
-    sidebar: {"position":"right","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"post"},
     fancybox: true,
-    tabs: true,
     motion: true,
     duoshuo: {
-      userId: '0',
+      userId: undefined,
       author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
 </script>
 
-
-
-  <link rel="canonical" href="https://blog.mliml.com/2016/07/24/产品经理之路学习笔记/"/>
-
-
-
-
-
-  <title>产品经理之路学习笔记 | 蘇陽志</title>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <title> 产品经理之路学习笔记 | 蘇陽志 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
+
+
+
+
+
+
+
+
+
+
+  
   
     
   
 
-  <div class="container sidebar-position-right page-post-detail ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
+      <div class="header-inner"><div class="site-meta ">
+  
 
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">蘇陽志</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle">Product · Code · Everything</p>
-      
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">蘇陽志</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
   </div>
+  <p class="site-subtitle">Product · Code · Everything</p>
+</div>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
 </div>
 
 <nav class="site-nav">
@@ -223,7 +199,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
+          <a href="/archives" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -233,7 +209,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+          <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -243,13 +219,34 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
   
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
 </nav>
-
-
 
  </div>
     </header>
@@ -264,53 +261,38 @@
     
 
   
-
-  
-  
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.mliml.com/2016/07/24/产品经理之路学习笔记/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="吳蘇陽">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/logo-new.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="蘇陽志">
-    </span>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
       <header class="post-header">
 
         
         
-          <h1 class="post-title" itemprop="name headline">产品经理之路学习笔记</h1>
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                产品经理之路学习笔记
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-24T22:10:10+08:00">
-                2016-07-24
-              </time>
-            
-
-            
-
-            
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-24T22:10:10+08:00" content="2016-07-24">
+              2016-07-24
+            </time>
           </span>
 
           
@@ -320,36 +302,25 @@
           
 
           
+
+          
           
              <span id="/2016/07/24/产品经理之路学习笔记/" class="leancloud_visitors" data-flag-title="产品经理之路学习笔记">
-               <span class="post-meta-divider">|</span>
+               &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
                </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
+               <span class="post-meta-item-text">热度 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
           
 
           
-
-          
-
-          
-              <div class="post-description">
-                  这份学习文档是酷我的产品总监内部培训的一份学习资料，我把打印出来超级厚的一打内容再次精炼成下面的这些东西。如果是看过很多资料的产品经理可能会觉得下面的内容过于简单了，但是我觉得里面的东西比较实在，适合作为一个基础文档好好地琢磨，有些观点可能不完全对，但是却用产品的整个流程把 pm 的核心能力梳理了一遍。
-              </div>
-          
-
         </div>
       </header>
     
 
-    
-    
-    
+
     <div class="post-body" itemprop="articleBody">
 
       
@@ -454,35 +425,32 @@
 
       
     </div>
-    
-    
-    
 
-    
-      <div>
-        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block； padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
     <img id="wechat_subscriber_qcode" src="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/ex-code.png" alt="吳蘇陽 wechat" style="width: 200px; max-width: 100%;"/>
     <div>手机访问蘇陽志</div>
 </div>
 
-      </div>
-    
+      
+    </div>
 
-    
+    <div>
+      
+        
 
-    
+      
+    </div>
 
     <footer class="post-footer">
       
         <div class="post-tags">
           
-            <a href="/tags/产品/" rel="tag"># 产品</a>
+            <a href="/tags/产品/" rel="tag">#产品</a>
           
         </div>
-      
-
-      
-      
       
 
       
@@ -494,8 +462,6 @@
               </a>
             
           </div>
-
-          <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
@@ -510,15 +476,45 @@
       
       
     </footer>
-  </div>
-  
-  
-  
   </article>
 
 
 
     <div class="post-spread">
+      
+        <!--MOB SHARE BEGIN-->
+<div class="-hoofoo-share-buttons">
+    <div class="-mob-share-weibo -hoofoo-share-weibo -hoofoo-share-ui-button"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+    <div class="-mob-share-weixin -hoofoo-share-weixin -hoofoo-share-ui-button"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+    <div class="-mob-share-twitter -hoofoo-share-twitter -hoofoo-share-ui-button"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+
+</div>
+<div class="-mob-share-ui" style="display: none">
+    <ul class="-mob-share-list">
+        <li class="-mob-share-weibo"><p>新浪微博</p></li>
+        <li class="-mob-share-weixin"><p>微信</p></li>
+        <li class="-mob-share-qzone"><p>QQ空间</p></li>
+        <li class="-mob-share-qq"><p>QQ好友</p></li>
+        <li class="-mob-share-tencentweibo"><p>腾讯微博</p></li>
+        <li class="-mob-share-renren"><p>人人网</p></li>
+        <li class="-mob-share-kaixin"><p>开心网</p></li>
+        <li class="-mob-share-douban"><p>豆瓣</p></li>
+        <li class="-mob-share-youdao"><p>有道云笔记</p></li>
+        <li class="-mob-share-mingdao"><p>明道</p></li>
+        <li class="-mob-share-pengyou"><p>朋友网</p></li>
+        <li class="-mob-share-facebook"><p>Facebook</p></li>
+        <li class="-mob-share-twitter"><p>Twitter</p></li>
+        <li class="-mob-share-pocket"><p>Pocket</p></li>
+        <li class="-mob-share-google"><p>Google+</p></li>
+        <li class="-mob-share-tumblr"><p>Tumblr</p></li>
+        <li class="-mob-share-instapaper"><p>Instapaper</p></li>
+        <li class="-mob-share-linkedin"><p>Linkedin</p></li>
+    </ul>
+    <div class="-mob-share-close">取消</div>
+</div>
+<div class="-mob-share-ui-bg"></div>
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=19941ba75e3ec"></script>
+<!--MOB SHARE END-->
       
     </div>
   </div>
@@ -547,7 +543,6 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
@@ -563,39 +558,41 @@
         </ul>
       
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://mliml-blog.oss-cn-beijing.aliyuncs.com/homepage/logo-new.png"
                alt="吳蘇陽" />
           <p class="site-author-name" itemprop="name">吳蘇陽</p>
-           
-              <p class="site-description motion-element" itemprop="description">the Worst PM</p>
-          
+          <p class="site-description motion-element" itemprop="description">the Worst PM</p>
         </div>
         <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">14</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
 
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">14</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
+
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">29.3k</span>
+                <span class="site-state-item-name">字数</span>
+              
             </div>
-          
+
 
           
-
-          
-            
-            
             <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
+              <a href="/tags">
                 <span class="site-state-item-count">24</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
           
+
+
 
         </nav>
 
@@ -610,6 +607,44 @@
 
         <div class="links-of-author motion-element">
           
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/mliml" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://cn.linkedin.com/in/wusuyang" target="_blank" title="Linkedin">
+                  
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  
+                  Linkedin
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/mliml" target="_blank" title="Zhihu">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Zhihu
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:suyang@mliml.com" target="_blank" title="Email">
+                  
+                    <i class="fa fa-fw fa-envelope-square"></i>
+                  
+                  Email
+                </a>
+              </span>
+            
+          
         </div>
 
         
@@ -617,30 +652,42 @@
 
         
         
-
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-heart"></i>
+              友链
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://cartermgj.github.io/" title="Carter_Blog" target="_blank">Carter_Blog</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://x1a0k3.github.io/" title="Hanley Xiao" target="_blank">Hanley Xiao</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://lid0.github.io/Blog/" title="Lido_Life" target="_blank">Lido_Life</a>
+                </li>
+              
+            </ul>
+          </div>
         
-
 
       </section>
 
       
-      <!--noindex-->
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
-
             
               
             
-
             
               <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、产品小牛——雷十条"><span class="nav-number">1.</span> <span class="nav-text">一、产品小牛——雷十条</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、拷贝熟知"><span class="nav-number">1.1.</span> <span class="nav-text">1、拷贝熟知</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、功能优先"><span class="nav-number">1.2.</span> <span class="nav-text">2、功能优先</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、统一原则"><span class="nav-number">1.3.</span> <span class="nav-text">3、统一原则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、左上右下"><span class="nav-number">1.4.</span> <span class="nav-text">4、左上右下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、面积匹配"><span class="nav-number">1.5.</span> <span class="nav-text">5、面积匹配</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、七条原则"><span class="nav-number">1.6.</span> <span class="nav-text">6、七条原则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7、广告独立"><span class="nav-number">1.7.</span> <span class="nav-text">7、广告独立</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8、善用图文"><span class="nav-number">1.8.</span> <span class="nav-text">8、善用图文</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9、直观快近"><span class="nav-number">1.9.</span> <span class="nav-text">9、直观快近</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10、反馈友好"><span class="nav-number">1.10.</span> <span class="nav-text">10、反馈友好</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、产品大牛——太极五式"><span class="nav-number">2.</span> <span class="nav-text">二、产品大牛——太极五式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#产品大牛的标准"><span class="nav-number">2.1.</span> <span class="nav-text">产品大牛的标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第一式：弯弓射虎"><span class="nav-number">2.2.</span> <span class="nav-text">第一式：弯弓射虎</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#好的_KPI："><span class="nav-number">2.2.1.</span> <span class="nav-text">好的 KPI：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二式：白鹤亮翅"><span class="nav-number">2.3.</span> <span class="nav-text">第二式：白鹤亮翅</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#入口的分类："><span class="nav-number">2.3.1.</span> <span class="nav-text">入口的分类：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#设计入口案例："><span class="nav-number">2.3.2.</span> <span class="nav-text">设计入口案例：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三式：云手"><span class="nav-number">2.4.</span> <span class="nav-text">第三式：云手</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#用户讨厌什么？"><span class="nav-number">2.4.1.</span> <span class="nav-text">用户讨厌什么？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#我们要怎么做？"><span class="nav-number">2.4.2.</span> <span class="nav-text">我们要怎么做？</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第四式：海底针"><span class="nav-number">2.5.</span> <span class="nav-text">第四式：海底针</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#运营与产品"><span class="nav-number">2.5.1.</span> <span class="nav-text">运营与产品</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#运营分类"><span class="nav-number">2.5.2.</span> <span class="nav-text">运营分类</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第五式：野马分鬃"><span class="nav-number">2.6.</span> <span class="nav-text">第五式：野马分鬃</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#抓主要矛盾的方法："><span class="nav-number">2.6.1.</span> <span class="nav-text">抓主要矛盾的方法：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据采样："><span class="nav-number">2.6.2.</span> <span class="nav-text">数据采样：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#流程："><span class="nav-number">2.6.3.</span> <span class="nav-text">流程：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、产品老牛"><span class="nav-number">3.</span> <span class="nav-text">三、产品老牛</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#创业的两个半核心问题："><span class="nav-number">3.0.1.</span> <span class="nav-text">创业的两个半核心问题：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#需求有多大？"><span class="nav-number">3.0.2.</span> <span class="nav-text">需求有多大？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#竞争壁垒是什么？"><span class="nav-number">3.0.3.</span> <span class="nav-text">竞争壁垒是什么？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#竞争壁垒："><span class="nav-number">3.0.4.</span> <span class="nav-text">竞争壁垒：</span></a></li></ol></li></ol></li></ol></div>
             
-
           </div>
         </section>
-      <!--/noindex-->
-      
-
       
 
     </div>
@@ -663,18 +710,15 @@
   <span class="author" itemprop="copyrightHolder">吳蘇陽</span>
 </div>
 
-
 <div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
+  <a class="theme-link" href="http://www.miitbeian.gov.cn/">
+    京 ICP 备 15021524 号 - 2
   </a>
 </div>
-
 
         
 
@@ -682,13 +726,9 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
   
@@ -711,40 +751,31 @@
 
 
 
-
-
-
-
-
-
-
-
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
 
 
 
@@ -752,36 +783,22 @@
   
 
 
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
 
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
-
-
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
 
 
 
   
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
 
 
 
   
 
 
-  
-
-
-
-
-	
-
-
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
 
 
 
@@ -789,20 +806,142 @@
 
 
 
-
-
   
 
 
 
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
 
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
 
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
 
   
-
-
-
-
 
   
 
@@ -825,7 +964,7 @@
           var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
 
           if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            $visitors.find(COUNT_CONTAINER_REF).text(0+"°C");
             return;
           }
 
@@ -835,15 +974,7 @@
             var time = item.get('time');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for(var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if( countSpan.text() == '') {
-              countSpan.text(0);
-            }
+            $(element).find(COUNT_CONTAINER_REF).text(time+"°C");
           }
         })
         .fail(function (object, error) {
@@ -867,7 +998,7 @@
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(counter.get('time')+"°C");
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -887,7 +1018,7 @@
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time')+"°C");
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -914,14 +1045,14 @@
 
 
   
-
+  <script type="text/javascript" src="/js/src/particle.js"></script>
   
-
-  
-
-  
-
-  
+<script type="text/javascript">
+    //微信二维码点击背景关闭
+    $('body').delegate('.-mob-share-weixin-qrcode-bg','click', function(){
+         $(".-mob-share-weixin-qrcode-close").trigger("click");
+    }); 
+</script>
 
 </body>
 </html>
