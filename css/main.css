@@ -1730,10 +1730,15 @@ pre .javascript .function {
 .site-author-image {
   display: block;
   margin: 0 auto;
-  padding: 2px;
+/* padding: $site-author-image-padding; */
   max-width: 120px;
   height: auto;
-  border: 1px solid #eee;
+/* border: $site-author-image-border-width solid $site-author-image-border-color; */
+  border-radius: 100%;
+  padding: 2px;
+  border: 2px dashed #fff;
+  animation: cycle 2s 0.5s forwards;
+  transition: border-radius 2s;
 }
 .site-author-name {
   margin: 0;
@@ -1817,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8ae994;
+  background: #ff85e3;
 }
 .links-of-blogroll {
   font-size: 13px;
