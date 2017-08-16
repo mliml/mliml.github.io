@@ -1737,8 +1737,8 @@ pre .javascript .function {
   border-radius: 30%;
   padding: 2px;
   border: 2px dashed #1c6867;
-  animation: cycle 2s 0.5s forwards;
-  transition: border-radius 2s;
+/* animation: cycle 2s 0.5s forwards; */
+/* transition: border-radius 2s;*/
 }
 .site-author-name {
   margin: 0;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5d8e90;
+  background: #4611e4;
 }
 .links-of-blogroll {
   font-size: 13px;
