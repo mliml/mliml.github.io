@@ -4,6 +4,11 @@
     src:url('/404source/logo.otf'); 
 }
 
+@font-face {
+	font-family: houxiandai;  
+    src:url('/404source/houxiandai.otf'); 
+}
+
 hr,img {
 	border: 0
 }
@@ -169,7 +174,7 @@ html {
 }
 
 body {
-	font-family: clarendon-text-pro,Georgia,"Times New Roman",Times,serif;
+	font-family: 'houxiandai',clarendon-text-pro,Georgia,"Times New Roman",Times,serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #454e57
